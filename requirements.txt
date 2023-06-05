@@ -1,7 +1,7 @@
 ultralytics
 streamlit
-pafy
 youtube-dl
+pafy
 lap
 git+https://github.com/ytdl-org/youtube-dl.git@master#egg=youtube_dl
 -e git+https://github.com/mohamed-challal/pafy.git@develop#egg=pafy
