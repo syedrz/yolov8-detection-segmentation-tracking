@@ -60,32 +60,7 @@ One the model config is done, select a source.
 
 ## Detection in Videos
 
-- Create a folder with name `videos` in the same directory
-- Dump your videos in this folder
-- In `settings.py` edit the following lines.
-
-```python
-# video
-VIDEO_DIR = ROOT / 'videos' # After creating the videos folder
-
-# Suppose you have four videos inside videos folder
-# Edit the name of video_1, 2, 3, 4 (with the names of your video files) 
-VIDEO_1_PATH = VIDEO_DIR / 'video_1.mp4' 
-VIDEO_2_PATH = VIDEO_DIR / 'video_2.mp4'
-VIDEO_3_PATH = VIDEO_DIR / 'video_3.mp4'
-VIDEO_4_PATH = VIDEO_DIR / 'video_4.mp4'
-
-# Edit the same names here also.
-VIDEOS_DICT = {
-    'video_1': VIDEO_1_PATH,
-    'video_2': VIDEO_2_PATH,
-    'video_3': VIDEO_3_PATH,
-    'video_4': VIDEO_4_PATH,
-}
-
-# Your videos will start appearing inside streamlit webapp 'Choose a video'.
-```
-
+- Drag and drop video file
 - Click on `Detect Video Objects` button and the selected task (detection/segmentation) will start on the selected video.
 
 ### Detection on RTSP
